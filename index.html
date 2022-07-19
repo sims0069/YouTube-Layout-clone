@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Layout clone </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="app">
+        <nav>
+            <button id="menu-toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <a href="./index.html" id="logo">
+                <i>
+                <ion-icon name="logo-youtube"></ion-icon>
+                </i>
+                <div class="white"></div>
+                <span>YouTube</span>
+                <sup>NG</sup>
+            </a>
+
+            <div class="search-area">
+                <form action="#">
+                    <input type="text" placeholder="Search">
+                    <button> 
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+                </form>
+                <button id="mic">
+                    <ion-icon name="mic"></ion-icon>
+                </button>
+            </div>
+        </nav>
+        <div class="arena">
+            <aside></aside>
+            <main>
+                <div class="categories"></div>
+                <div class="video-list">
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                    <div class="video-card"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+
+    <!-- Script below -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
